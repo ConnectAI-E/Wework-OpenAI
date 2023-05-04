@@ -1,0 +1,22 @@
+# 企业ID
+CORP_ID: ww2xxxxx
+APP_ID: 1000002
+APP_SECRET: 0xxxxxxxydr_diByUus
+Token: QDG6eK
+EncodingAESKey: jWmYm7qr5nMoAUwZRjGtBxmz3KA1tkAj3ykkR6q2B2C
+
+
+# openAI key 支持负载均衡 可以填写多个key 用逗号分隔
+OPENAI_KEY: sk-xxxx,sk-xxxx,sk-xxxx,sk-xxxx
+# 服务器配置
+HTTP_PORT: 9000
+HTTPS_PORT: 9001
+USE_HTTPS: false
+CERT_FILE: cert.pem
+KEY_FILE: key.pem
+# openai 地址, 一般不需要修改, 除非你有自己的反向代理
+API_URL: https://api.openai.com
+# 代理设置, 例如 "http://127.0.0.1:7890", ""代表不使用代理
+HTTP_PROXY: "http://127.0.0.1:7890"
+QDRANT_HOST: https://xxx.xxxx.com
+QDRANT_COLLECTION: wework-vkm
